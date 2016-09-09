@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Countdown Clock</title>
+    <meta name="description" content="countdown clock application">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="countdown_clock.css">
+  </head>
+  <body>
+    <div id="countdown_clock">
+      <h1>COUNTDOWN</h1>
+      <div id="readout">
+        <div class="time_unit_alt">
+          <div id="hours"></div>
+          <div class="time_label">HOURS</div>
+        </div>
+        <div class="colon">:</div>
+        <div class="time_unit">
+          <div id="minutes"></div>
+          <div class="time_label">MINUTES</div>
+        </div>
+        <div class="colon">:</div>
+        <div class="time_unit seconds">
+          <div id="seconds"></div>
+          <div class="time_label">SECONDS</div>
+        </div>
+      </div>
+    </div>
+    <div id="countdown_message">
+    </div>
+    <script src="countdown_clock.js"></script>
+    <script>
+      initializeCountdownClock("January 1, 2017", "Happy New Year!");
+    </script>
+  </body>
+</html>

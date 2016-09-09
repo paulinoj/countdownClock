@@ -1,0 +1,77 @@
+
+#countdown_clock {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 180px;
+  font-weight: bold;
+  text-align: center;
+  display: none;      	
+}
+
+#countdown_message {
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+  color: #00ccff;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 80px;
+  margin-bottom: 30px;      	
+}
+
+#readout {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+}
+
+.time_unit {
+  -webkit-flex-grow: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: 206px;
+  flex-basis: 206px;
+}
+
+.time_unit_alt {
+  -webkit-flex-grow: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: auto;
+  flex-basis: auto;
+}
+
+.colon {
+  -webkit-flex-grow: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: 170px;
+  flex-basis: 170px;
+}
+
+#hours, #minutes, #seconds {
+  height: 187px;	  
+}
+
+.seconds {
+  color: red;
+}
+
+.time_label {
+  font-size: 36px;
+}
+
+
